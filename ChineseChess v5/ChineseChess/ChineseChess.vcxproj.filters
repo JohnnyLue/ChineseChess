@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="來源檔案">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChessGameMainMenu.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Chess.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="ChineseChessRender.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChessGameMainMenu.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Chess.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="ChineseChessRender.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="棋盤3.jpg">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="empty.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="可被吃的象棋\紅\RCE.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="可被吃的象棋\紅\REE.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="可被吃的象棋\紅\RGE.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="可被吃的象棋\紅\RHE.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="可被吃的象棋\紅\RSE.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="可被吃的象棋\紅\RTE.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="可被吃的象棋\紅\RWE.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="可被吃的象棋\黑\BCE.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="可被吃的象棋\黑\BEE.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="可被吃的象棋\黑\BGE.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="可被吃的象棋\黑\BHE.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="可被吃的象棋\黑\BSE.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="可被吃的象棋\黑\BTE.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="可被吃的象棋\黑\BWE.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="正常紅\RC.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="正常紅\RE.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="正常紅\RG.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="正常紅\RH.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="正常紅\RS.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="正常紅\RT.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="正常紅\RW.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="正常黑\BC.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="正常黑\BE.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="正常黑\BG.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="正常黑\BH.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="正常黑\BS.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="正常黑\BT.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="正常黑\BW.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="被選擇的象棋\紅\RCC.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="被選擇的象棋\紅\REC.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="被選擇的象棋\紅\RGC.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="被選擇的象棋\紅\RHC.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="被選擇的象棋\紅\RSC.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="被選擇的象棋\紅\RTC.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="被選擇的象棋\紅\RWC.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="被選擇的象棋\黑\BCC.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="被選擇的象棋\黑\BEC.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="被選擇的象棋\黑\BGC.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="被選擇的象棋\黑\BHC.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="被選擇的象棋\黑\BSC.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="被選擇的象棋\黑\BTC.png">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="被選擇的象棋\黑\BWC.png">
+      <Filter>資源檔</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
